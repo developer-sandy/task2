@@ -1,0 +1,123 @@
+.bg-color
+{
+    background-color: black;
+}
+.navbar{
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.card-one
+{
+    background: url("../Assets/images/carousal-bg.png");
+}
+#accordionExample
+{
+    width:50%;
+}
+.homeone
+{
+    background-color: #ffc200;
+    border-radius: 20px;
+}
+.con
+{
+    margin-right: 40px;
+}
+
+
+
+#nav-col
+{
+    color: #000;
+}
+#nav-col-1
+{
+    color: white;
+}
+
+#accone
+{
+    margin-left: 60px;
+    margin-top: 10%;
+}
+#carouselExampleControls
+{
+    padding: 2%;
+}
+.cdt
+{
+    margin-top: 14%;
+}
+
+.cd
+{
+  margin-top: 13%;
+}
+
+.accordion
+{
+    max-width: 800px;
+    margin-left: 350px;
+}
+.accordion .contentBx
+{
+    position: relative;
+    margin: 10px 20px;
+}
+.accordion .contentBx .label
+{
+    position:relative;
+    padding: 10px;
+    background-color: #000;
+    color:#fff;
+    cursor: pointer;
+
+}
+.accordion .contentBx .label::before
+{
+    content:'+';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+}
+
+.accordion .contentBx.active .label::before
+{
+    content:'-';
+}
+
+.accordion .contentBx .content
+{
+    position: relative;
+    overflow-y: auto;
+    background: #ffc200;
+    height: 0;
+    overflow:hidden;
+    transition: 0.5s;
+}
+.accordion .contentBx.active .content
+{
+    height: 150px;
+    padding: 10px;
+}
+.bor{
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
+
+.cell{
+    width: 33%;
+    height: 350px;
+    margin: 0 15px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.main-carousel
+{
+    padding: 15px;
+    
+    
+}
